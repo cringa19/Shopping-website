@@ -1,0 +1,43 @@
+.mycontainer {
+    margin: 70px 0 0 120px;
+}
+ 
+.col-md-3 {
+    background-color: #dcc2eb;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+ 
+#myDiv {
+    margin: auto;
+    width: 700px;
+    line-height: 2.0em;
+}
+ 
+img {
+    height: auto;
+    width: 60%;
+    margin-bottom: 10px;
+}
+ 
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+ 
+.price {
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+.description {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ 
+ 
+

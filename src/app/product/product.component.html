@@ -1,0 +1,38 @@
+ 
+<div class="mycontainer">
+    <div class="container">
+        <div class="row">
+            <div class = "col-md-3" *ngFor="let record of getAllRecords(); let i=index">
+ 
+                <!--Price-->
+                <label class="price"> {{ record.getRecordPrice() | currency }} </label>
+ 
+                <!-- Product image -->
+                <br>
+                <img [src]="getImage(record)">
+ 
+                <!--Product Name-->
+                <div class="title"> 
+                    <strong>{{ record.getRecordName() }}  </strong> 
+                </div>
+ 
+                <!--Brief Description-->
+                <div class="description">
+                    <label> {{ record.getRecordDescription() }} </label>
+                </div>
+
+                <!-- Rating -->
+                <br> <app-rating> </app-rating> <br>
+
+                <!--Button-->
+                <button type="submit" class="btn btn-primary" (click)="onAdd(record)"> Add to cart </button>
+           
+                <div *ngIf="i % 4  == 0"> <br> </div>
+                <!-- (i+1) also works-->
+ 
+            </div>  
+         </div>
+    </div>
+</div>
+ 
+

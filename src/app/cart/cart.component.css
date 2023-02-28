@@ -1,0 +1,60 @@
+h2 {
+    text-align: center;
+}
+ 
+.card {
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+ 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+ 
+.card-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+}
+ 
+img {
+    height: auto;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.empty {
+    width: 20%;
+    margin-left: 40%;
+}
+
+ 
+#foot {
+    width: 100%;
+    line-height: 0.5em;
+}
+ 
+#footer {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    margin-top: -22px;
+    clear: both;
+}
+
+ 
+
